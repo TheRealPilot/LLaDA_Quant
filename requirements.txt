@@ -1,0 +1,19 @@
+# Core dependencies for LLaDA
+# Install PyTorch with CUDA support first:
+# pip install torch torchvision torchaudio --index-url https://download.pytorch.org/whl/cu121
+
+# Transformers (specific version required by LLaDA)
+transformers==4.38.2
+
+# Core dependencies
+numpy>=1.21.5
+torch>=2.5.0
+torchvision>=0.20.0
+torchaudio>=2.5.0
+
+# Optional: For Gradio demo (app.py)
+gradio>=3.0.0
+
+# Additional dependencies
+huggingface-hub>=0.19.3
+safetensors>=0.4.1
